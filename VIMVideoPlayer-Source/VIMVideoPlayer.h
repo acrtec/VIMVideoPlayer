@@ -58,6 +58,10 @@ static const float TimeUpdateInterval = 0.1f;
 - (void)setPlayerItem:(AVPlayerItem *)playerItem;
 - (void)setAsset:(AVAsset *)asset;
 
+// AVAudioSession
+
+- (void)setupAudioSession;
+
 // Playback
 
 - (void)play;
